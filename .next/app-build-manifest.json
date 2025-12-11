@@ -16,15 +16,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/show/[id]/page.js"
     ],
-    "/movie/[id]/page": [
+    "/top-rated/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/movie/[id]/page.js"
-    ],
-    "/movies/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/movies/page.js"
+      "static/chunks/app/top-rated/page.js"
     ]
   }
 }
