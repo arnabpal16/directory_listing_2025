@@ -29,12 +29,25 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="relative h-96 bg-gradient-to-br from-orange-400 via-red-400 to-pink-400 rounded-2xl overflow-hidden shadow-2xl">
+          {/* <div className="relative h-96 bg-gradient-to-br from-orange-400 via-red-400 to-pink-400 rounded-2xl overflow-hidden shadow-2xl">
             <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent"></div>
             <div className="absolute inset-0 flex items-center justify-center text-white text-6xl font-bold opacity-20">
               <Clapperboard size={200} />
             </div>
-          </div>
+          </div> */}
+          <div className="relative">
+  {/* Rotating Border */}
+  <div className="absolute inset-0 rounded-2xl border-animation pointer-events-none"></div>
+
+  {/* Your Original Box */}
+  <div className="relative h-96 bg-gradient-to-br from-orange-400 via-red-400 to-pink-400 rounded-2xl overflow-hidden shadow-2xl">
+    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent"></div>
+    <div className="absolute inset-0 flex items-center justify-center text-white text-6xl font-bold opacity-20">
+      <Clapperboard size={200} />
+    </div>
+  </div>
+</div>
+
         </div>
       </section>
 

@@ -60,6 +60,42 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "substackcdn.com",
+      },
+      {
+        protocol: "https",
+        hostname: "upload.wikimedia.org",
+      },
+      {
+        protocol: "https",
+        hostname: "encrypted-tbn0.gstatic.com",
+      },
+      {
+        protocol: "https",
+        hostname: "media.s-bol.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.slashfilm.com",
+      },
+      {
+        protocol: "https",
+        hostname: "m.media-amazon.com",
+      },
+      {
+        protocol: "https", 
+        hostname: "encrypted-tbn0.gstatic.com",
+      },
+      {
+        protocol: "https",
+        hostname: "s3.amazonaws.com"
+      },
+      {
+        protocol: "https",
+        hostname: "rukminim2.flixcart.com",
+      },
+      {
+        protocol: "https",
+        hostname: "encrypted-tbn0.gstatic.com",
       }
     ],
   },
