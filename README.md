@@ -127,7 +127,7 @@ The design draws inspiration from modern entertainment platforms emphasizing:
 
 ## Deployment
 
-The project is ready for deployment on Vercel, Netlify, or any Node.js hosting platform supporting Next.js 14.
+The project is ready and deployed on Vercel.
 
 ## Future Enhancements (with 2 more days)
 
@@ -141,10 +141,4 @@ The project is ready for deployment on Vercel, Netlify, or any Node.js hosting p
 - Advanced analytics
 - Content collections and curated lists
 
-## Performance
 
-- First Load JS: ~101 kB
-- Static pre-rendering for 52 pages
-- Image optimization
-- Code splitting
-- CSS and JavaScript minification
