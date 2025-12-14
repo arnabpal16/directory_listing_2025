@@ -133,12 +133,9 @@ The project is ready and deployed on Vercel.
 
 - Watchlist/favorites with persistent storage
 - User ratings and reviews system
-- Advanced filtering (multiple genres, year ranges)
-- Content recommendations
 - Integration with external APIs (TMDB, IMDb)
 - User authentication and profiles
 - Social sharing capabilities
-- Advanced analytics
 - Content collections and curated lists
 
 
